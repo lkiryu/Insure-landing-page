@@ -1,10 +1,15 @@
 import './App.css';
+import Header from './components/header/header';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <main className='container'>
+      <Header/>
+      <section className='humanizing'></section>
+      <section className='different'></section>
+      <section className='find-out'></section>
+      <footer className='footer'></footer>
+    </main>
   );
 }
 
