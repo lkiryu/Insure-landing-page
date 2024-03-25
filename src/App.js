@@ -5,6 +5,8 @@ import Different from './components/different-section/different';
 import FindOut from './components/findOut/findOut';
 import Footer from './components/footer/footer';
 
+import './App.css'
+
 function App() {
   return (
     <main className='container'>

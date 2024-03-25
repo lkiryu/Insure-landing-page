@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin: 40px 0;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li{
+    color: hsl(273, 4%, 51%);
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.3s ease-in;
+}
+
+nav ul li:hover{
+    color: hsl(270, 9%, 17%);
+}
+
+nav ul li:last-child a{
+    color: hsl(270, 9%, 17%);
+    padding: 15px 30px;
+    border: 2px solid hsl(270, 9%, 17%);
+    transition: 0.3s ease-in;
+}
+
+nav ul li:last-child a:hover{
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(270, 9%, 17%);
+}
