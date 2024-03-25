@@ -3,6 +3,8 @@ import snappy from '../../images/icon-snappy-process.svg'
 import affordable from '../../images/icon-affordable-prices.svg'
 import people from '../../images/icon-people-first.svg'
 
+import './different.css'
+
 const Different = () => {
     return (
         <section className='different'>

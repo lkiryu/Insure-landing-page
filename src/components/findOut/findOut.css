@@ -1,0 +1,32 @@
+.find-out{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 100px;
+    width: 80vw;
+    background-color: hsl(256, 26%, 20%);
+    margin-top: 150px;
+    background-image: url(../../images/bg-pattern-how-we-work-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+}
+
+.find-out .title{
+    color: hsl(0, 0%, 98%);
+    width: 630px;
+    line-height: 55px;
+}
+
+.find-out a{
+    color: hsl(0, 0%, 98%);
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: 2px solid hsl(0, 0%, 98%);
+    transition: 0.3s ease-in;
+}
+
+.find-out a:hover{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(256, 26%, 20%);
+}

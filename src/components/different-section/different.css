@@ -1,0 +1,42 @@
+.different{
+    margin-top: 250px;
+    width: 80vw;
+}
+
+.different .line{
+    height: 1px;
+    width: 200px;
+    background-color: hsl(273, 4%, 51%);
+    margin-bottom: 60px;
+}
+
+.different .title{
+    color: hsl(270, 9%, 17%);
+    margin-bottom: 80px;
+}
+
+.different .lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.different ul{
+    width: 400px;
+}
+
+.different img{
+    margin-bottom: 20px;
+}
+
+.different .list-title{
+    font-family: "DM Serif Display", serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.different .list-description{
+    color: hsl(273, 4%, 51%);
+    font-size: 18px;
+}

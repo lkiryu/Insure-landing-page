@@ -1,5 +1,7 @@
 import React from "react";
 
+import './findOut.css'
+
 const FindOut = () => {
     return(
         <section className='find-out'>
