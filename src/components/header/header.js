@@ -3,11 +3,17 @@ import logo from '../../images/logo.svg'
 import './header.css'
 
 const Header = () => {
-    return(
+    return (
         <header className='header'>
             <a href="/">
                 <img src={logo} alt='logo'></img>
             </a>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
 
             <nav>
                 <ul>

@@ -35,6 +35,20 @@ nav ul li:last-child a:hover{
     background-color: hsl(270, 9%, 17%);
 }
 
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+    border: 2px solid hsl(270, 9%, 17%);
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: hsl(0, 0%, 0%);
+    margin: 8px;
+    transition: 0.3s;
+}
+
 @media(max-width:1024px){
     .header{
         width: 90vw;
@@ -44,5 +58,9 @@ nav ul li:last-child a:hover{
 @media(max-width:500px){
     nav{
         display: none;
+    }
+
+    .mobile-menu{
+        display: block;
     }
 }
