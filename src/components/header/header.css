@@ -34,3 +34,15 @@ nav ul li:last-child a:hover{
     color: hsl(0, 0%, 98%);
     background-color: hsl(270, 9%, 17%);
 }
+
+@media(max-width:1024px){
+    .header{
+        width: 90vw;
+    }
+}
+
+@media(max-width:500px){
+    nav{
+        display: none;
+    }
+}

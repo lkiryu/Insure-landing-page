@@ -83,3 +83,26 @@
 .links ul li a:hover::after {
     width: 100%;
 }
+
+@media(max-width:1024px){
+    .footer-content {
+        width: 90vw;
+    }
+}
+
+@media(max-width:500px){
+    .footer-content {
+        padding: 50px 0;
+    }
+
+    .footer-content .footer-header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-content .links {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}

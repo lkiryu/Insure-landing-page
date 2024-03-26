@@ -30,3 +30,36 @@
     background-color: hsl(0, 0%, 98%);
     color: hsl(256, 26%, 20%);
 }
+
+@media(max-width:1024px){
+    .find-out{
+        width: 90vw;
+    }
+
+    .find-out .title{
+        width: 450px;
+    }
+}
+
+@media(max-width:800px){
+    .find-out .title{
+        width: 300px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+@media(max-width:500px){
+    .find-out{
+        flex-direction: column;
+        justify-content: center;
+        padding: 45px;
+        background-image: url(../../images/bg-pattern-how-we-work-mobile.svg);
+    }
+
+    .find-out .title{
+        width: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
