@@ -1,7 +1,76 @@
 import React from "react";
 import logo from '../../images/logo.svg'
+import Link from "../Link/link";
 
 import './footer.css'
+
+const companyData = [
+    {
+        href: "/",
+        link: "How we work",
+    },
+    {
+        href: "/",
+        link: "Why Insure?",
+    },
+    {
+        href: "/",
+        link: "View plans",
+    },
+    {
+        href: "/",
+        link: "Reviews",
+    },
+]
+
+const helpData = [
+    {
+        href: "/",
+        link: "FAQ",
+    },
+    {
+        href: "/",
+        link: "Terms of use",
+    },
+    {
+        href: "/",
+        link: "Privacy policy",
+    },
+    {
+        href: "/",
+        link: "Cookies",
+    },
+]
+
+const contactData = [
+    {
+        href: "/",
+        link: "Sales",
+    },
+    {
+        href: "/",
+        link: "Support",
+    },
+    {
+        href: "/",
+        link: "Live chat",
+    },
+]
+
+const othersData = [
+    {
+        href: "/",
+        link: "Careers",
+    },
+    {
+        href: "/",
+        link: "Press",
+    },
+    {
+        href: "/",
+        link: "Licenses",
+    },
+]
 
 const Footer = () => {
     return (
@@ -20,32 +89,42 @@ const Footer = () => {
                 </div>
                 <div className="line"></div>
                 <div className="links">
-                    <ul>
-                        <li>Our company</li>
-                        <li><a href="/">How we work</a></li>
-                        <li><a href="/">Why Insure?</a></li>
-                        <li><a href="/">View plans</a></li>
-                        <li><a href="/">Reviews</a></li>
-                    </ul>
-                    <ul>
-                        <li>Help me</li>
-                        <li><a href="/">FAQ</a></li>
-                        <li><a href="/">Terms of use</a></li>
-                        <li><a href="/">Privacy policy</a></li>
-                        <li><a href="/">Cookies</a></li>
-                    </ul>
-                    <ul>
-                        <li>Contact</li>
-                        <li><a href="/">Sales</a></li>
-                        <li><a href="/">Support</a></li>
-                        <li><a href="/">Live chat</a></li>
-                    </ul>
-                    <ul>
-                        <li>Others</li>
-                        <li><a href="/">Careers</a></li>
-                        <li><a href="/">Press</a></li>
-                        <li><a href="/">Licenses</a></li>
-                    </ul>
+                    <Link title="Our company">
+                            {
+                                companyData.map((item, index) => {
+                                    return (
+                                        <li key={index}><a href={item.href}>{item.link}</a></li>
+                                    )
+                                })
+                            }
+                    </Link>
+                    <Link title="Help me">
+                            {
+                                helpData.map((item, index) => {
+                                    return (
+                                        <li key={index}><a href={item.href}>{item.link}</a></li>
+                                    )
+                                })
+                            }
+                    </Link>
+                    <Link title="contact">
+                            {
+                                contactData.map((item, index) => {
+                                    return (
+                                        <li key={index}><a href={item.href}>{item.link}</a></li>
+                                    )
+                                })
+                            }
+                    </Link>
+                    <Link title="Others">
+                            {
+                                othersData.map((item, index) => {
+                                    return (
+                                        <li key={index}><a href={item.href}>{item.link}</a></li>
+                                    )
+                                })
+                            }
+                    </Link>
                 </div>
             </div>
         </footer>

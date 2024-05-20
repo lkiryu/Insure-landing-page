@@ -54,36 +54,6 @@
     width: 100%;
 }
 
-.links ul li {
-    color: hsl(270, 9%, 17%);
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.links ul li:first-child {
-    color: hsl(273, 4%, 51%);
-    margin-bottom: 20px;
-}
-
-.links ul li a{
-    position: relative;
-}
-
-.links ul li a::after {
-    content: '';
-    position: absolute;
-    height: 2px;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    background-color: hsl(270, 9%, 17%);
-    transition: width 0.2s;
-}
-
-.links ul li a:hover::after {
-    width: 100%;
-}
-
 @media(max-width:1024px){
     .footer-content {
         width: 90vw;
