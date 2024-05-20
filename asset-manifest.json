@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Insure-landing-page/static/css/main.a7e29f47.css",
+    "main.js": "/Insure-landing-page/static/js/main.0ad31a25.js",
+    "static/media/image-intro-desktop.jpg": "/Insure-landing-page/static/media/image-intro-desktop.2f3429f63753a67e322b.jpg",
+    "static/media/logo.svg": "/Insure-landing-page/static/media/logo.b84080a147fc2d2276186c0349edfeec.svg",
+    "static/media/bg-pattern-how-we-work-desktop.svg": "/Insure-landing-page/static/media/bg-pattern-how-we-work-desktop.eb268c33d9921cd960db.svg",
+    "static/media/bg-pattern-footer-desktop.svg": "/Insure-landing-page/static/media/bg-pattern-footer-desktop.700c39ea607592bfacaf.svg",
+    "static/media/bg-pattern-how-we-work-mobile.svg": "/Insure-landing-page/static/media/bg-pattern-how-we-work-mobile.96cd9d0635dc0b442022.svg",
+    "index.html": "/Insure-landing-page/index.html",
+    "main.a7e29f47.css.map": "/Insure-landing-page/static/css/main.a7e29f47.css.map",
+    "main.0ad31a25.js.map": "/Insure-landing-page/static/js/main.0ad31a25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7e29f47.css",
+    "static/js/main.0ad31a25.js"
+  ]
+}
