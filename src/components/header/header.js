@@ -9,10 +9,10 @@ const Header = () => {
                 <img src={logo} alt='logo'></img>
             </a>
 
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
+            <div className="mobile-menu">
+                <div className="line1"></div>
+                <div className="line2"></div>
+                <div className="line3"></div>
             </div>
 
             <nav>

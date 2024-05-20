@@ -22,26 +22,6 @@
     gap: 30px;
 }
 
-.different ul{
-    max-width: 350px;
-}
-
-.different img{
-    margin-bottom: 20px;
-}
-
-.different .list-title{
-    font-family: "DM Serif Display", serif;
-    font-size: 26px;
-    margin-bottom: 20px;
-    font-weight: 400;
-}
-
-.different .list-description{
-    color: hsl(273, 4%, 51%);
-    font-size: 18px;
-}
-
 @media(max-width:1024px){
     .different{
         width: 90vw;
@@ -62,13 +42,5 @@
 
     .different .lists{
         flex-direction: column;
-    }
-
-    .different ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
 }

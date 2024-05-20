@@ -10,11 +10,15 @@ import './App.css'
 function App() {
   return (
     <main className='container'>
-      <Header/>
-      <Humanazing/>
-      <Different/>
-      <FindOut/>
-      <Footer/>
+      <Header />
+
+      <Humanazing />
+
+      <Different />
+
+      <FindOut />
+      
+      <Footer />
     </main>
   );
 }
